@@ -1,0 +1,100 @@
+---
+layout: default_edited
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Projects</title>
+  <style>
+    .project-card {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border: 2px solid #ccc; 
+      border-radius: 12px;
+      padding: 16px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: none;
+    }
+
+    .project-info {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .project-title {
+      margin: 0 0 8px 0;
+      font-size: 1.25rem;
+      color: #000 !important;
+      font-weight: bold !important;   
+    }
+
+    .project-description {
+      margin: 0;
+      color: #444;
+    }
+
+    .project-image {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 0px solid #ccc;
+    }
+
+    .github-link {
+      margin-left: 8px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .github-icon {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="project-card">
+    <div class="project-info">
+      <h2 class="project-title">
+        Project Title
+        <a href="https://github.com/MarcSerraPeralta/surface-sim" class="github-link" target="_blank">
+          <img src="/github_logo.svg" alt="GitHub" class="github-icon">
+        </a>
+      </h2>
+      <p class="project-description">
+        This is a short description of the project. It explains what it does in a few sentences.
+
+        <br>
+        <br>
+        <span style="color: red">
+          <strong>Difficulty:</strong> Medium — requires some prior experience.
+        </span>
+      </p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lego_Color_Bricks.jpg/2880px-Lego_Color_Bricks.jpg" alt="Project image" class="project-image">
+  </div>
+
+  <div class="project-card">
+    <div class="project-info">
+      <h2 class="project-title">
+        Project Title
+        <a href="https://github.com/MarcSerraPeralta/surface-sim" class="github-link" target="_blank">
+          <img src="/github_logo.svg" alt="GitHub" class="github-icon">
+        </a>
+      </h2>
+      <p class="project-description">
+        This is a short description of the project. It explains what it does in a few sentences.
+      </p>
+    </div>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Lego_Color_Bricks.jpg/2880px-Lego_Color_Bricks.jpg" alt="Project image" class="project-image">
+  </div>
+
+</body>
+</html>
