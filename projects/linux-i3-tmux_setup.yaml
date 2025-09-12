@@ -1,0 +1,7 @@
+title: linux+i3+tmux setup
+description: >-
+  Config files for Linux Mint 21.3 with i3 as window manager and 
+  tmux as a terminal manager.
+category: maintaining
+github_link: https://github.com/MarcSerraPeralta/ThinkPadX1-dotfiles/
+image: /projects/linux-i3-tmux_setup.webp

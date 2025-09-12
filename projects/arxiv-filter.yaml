@@ -1,0 +1,7 @@
+title: arXiv filter
+description: >-
+  Filters the daily arXiv submissions and only sends (via email) 
+  the relevant ones based on a set of keywords and author list.
+category: finished
+github_link: https://github.com/MarcSerraPeralta/arXiv-filter
+image: /projects/arxiv-filter.jpg

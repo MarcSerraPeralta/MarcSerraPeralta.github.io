@@ -1,0 +1,9 @@
+title: 3D printing pictures
+description: >-
+  3D print pictures by converting them to lithophane models.
+  There are online lithophane generators like 
+  <a href="https://3dp.rocks/lithophane/" target="_blank" rel="noopener noreferrer">this one</a>. 
+  In the generator, always make the lithophane vertical and as positive image.
+  For printing, use maximum line count (no infill), low speed (20 mm/s), and brim.
+category: finished
+image: /projects/3d-print_lithophane.webp
