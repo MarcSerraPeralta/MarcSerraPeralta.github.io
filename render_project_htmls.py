@@ -59,6 +59,8 @@ for filename in yaml_files:
     category = data.get("category")
     if category is None:
         raise ValueError(f"Missing category for project '{filename}'.")
+    if category not in category_htmls:
+        raise ValueError(f"Category '{category}' is not valid (project={filename}).")
     category_htmls[category] += f"{{% include {project_html_name} %}}\n"
 
 for category, content in category_htmls.items():
