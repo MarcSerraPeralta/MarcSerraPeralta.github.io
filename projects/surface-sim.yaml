@@ -1,0 +1,7 @@
+title: surface-sim
+description: >-
+  Wrapper around Stim to simplify the construction of QEC circuits, 
+  specialized in the surface code.
+category: maintaining
+github_link: https://github.com/MarcSerraPeralta/surface-sim
+image: /projects/surface-sim.svg

@@ -1,0 +1,6 @@
+title: Project title
+description: Project description [optional]
+category: category from 'new_ideas', 'researched', 'wip', 'maintaining', 'finished'
+github_link: Github link [optional]
+image: Image location [optional]
+difficulty: Project difficulty/bottleneck [optional]
