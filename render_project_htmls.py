@@ -49,8 +49,8 @@ for filename in yaml_files:
     if difficulty is None:
         project_html = "".join(project_html.split("DIFFICULTY_SECTION")[0::2])
     else:
-        project_html = project_html.replace("DIFFICULT_SECTION", "")
-        project_html = project_html.replace("DIFFICULTY_DESCRIPTION", difficulty)
+        project_html = project_html.replace("DIFFICULTY_SECTION", "")
+        project_html = project_html.replace("DIFFICULTY", difficulty)
 
     project_html_name = filename.replace(".yaml", ".html")
     with open(INCLUDES_DIR / project_html_name, "w") as file:
