@@ -40,7 +40,7 @@ for filename in yaml_files:
         project_html = "".join(project_html.split("GITHUB_LINK_SECTION")[0::2])
     else:
         project_html = project_html.replace("GITHUB_LINK_SECTION", "")
-        project_html = project_html.replace("GITHUB_LINK_SECTION", github_link)
+        project_html = project_html.replace("GITHUB_LINK", github_link)
 
     image = data.get("image", "")
     project_html = project_html.replace("IMAGE", image)
