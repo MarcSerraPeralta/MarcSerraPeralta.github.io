@@ -7,7 +7,7 @@ PROJECTS_DIR = pathlib.Path("projects")
 if not PROJECTS_DIR.exists():
     raise ValueError(f"Projects dir '{PROJECTS_DIR}' does not exist.")
 
-yaml_files = [f for f in os.listdir(PROJECTS_DIR) if f.endswith(".yaml")]
+yaml_files = sorted([f for f in os.listdir(PROJECTS_DIR) if f.endswith(".yaml")])
 
 INCLUDES_DIR = pathlib.Path("_includes")
 INCLUDES_DIR.mkdir(exist_ok=True, parents=True)
@@ -25,7 +25,7 @@ for category in ["new_ideas", "researched", "wip", "maintaining", "finished"]:
 for filename in yaml_files:
     project_html = PROJECT_TEMPLATE
     with open(PROJECTS_DIR / filename, "r") as file:
-        data = yaml.safe_load(file)
+        data: dict[str, str] = yaml.safe_load(file)
 
     title = data.get("title")
     if title is None:
