@@ -3,3 +3,4 @@ description: Density matrix simulator that is a cleaner implementation of quantu
 category: new_ideas
 github_link: https://github.com/MarcSerraPeralta/density-matrix-simulator
 difficulty: it is a big project and maybe it is not useful as there are other simulators available
+image: /projects/density_matrix_simulator.png
