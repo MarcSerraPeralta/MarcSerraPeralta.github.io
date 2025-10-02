@@ -1,6 +1,9 @@
 title: Density matrix simulator
-description: Density matrix simulator that is a cleaner implementation of quantumsim.
+description: >-
+  Density matrix simulator that is a cleaner implementation of quantumsim.
+  Seeing that the 'master' branch from quantumsim is very powerful, I will probably
+  focus on contributing to quantumsim.
 category: new_ideas
 github_link: https://github.com/MarcSerraPeralta/density-matrix-simulator
-difficulty: it is a big project and maybe it is not useful as there are other simulators available
+difficulty: it is a big project and maybe it is not useful as there are other simulators available (like quantumsim)
 image: /projects/density_matrix_simulator.png
