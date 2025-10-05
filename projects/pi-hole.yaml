@@ -4,4 +4,5 @@ description: >-
   such as mobile apps and smart TVs, regardless of hardware or OS.
 category: researched
 image: /projects/pi-hole.png
+github_link: https://github.com/MarcSerraPeralta/homelab
 difficulty: pricey raspberry pies
