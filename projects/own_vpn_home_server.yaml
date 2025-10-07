@@ -3,6 +3,6 @@ description: >-
   Create my own VPN to connect to the home network. 
   This way I can connect to the PC, NAS, TV, ... that are at home.
   Connecting to the PC could be useful for the Linux-tablet project.
-category: researched
+category: wip
 github_link: https://github.com/MarcSerraPeralta/homelab
 image: /projects/own_vpn_home_server.png
