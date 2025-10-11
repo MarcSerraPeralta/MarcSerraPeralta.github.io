@@ -2,6 +2,6 @@ title: Pi-hole
 description: >-
   Network-level blocking allows you to block ads in non-traditional places 
   such as mobile apps and smart TVs, regardless of hardware or OS.
-category: maintaining
+category: finished
 image: /projects/pi-hole.png
-github_link: https://github.com/MarcSerraPeralta/homelab
+github_link: https://github.com/MarcSerraPeralta/homelab/tree/3e53d2d2b4d0546c1dd405f1140d8b52e36f54de
