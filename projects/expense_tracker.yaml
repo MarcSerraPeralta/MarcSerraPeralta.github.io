@@ -1,0 +1,8 @@
+title: Simple expense tracker
+description: >-
+  Simple expense tracker where the montly expenses are automatically classified
+  and a summary and plot are generated.
+category: researched
+github_link: https://github.com/MarcSerraPeralta/homelab/issues/18
+image: /projects/expense_tracker.webp
+difficulty: build the telegram bot
