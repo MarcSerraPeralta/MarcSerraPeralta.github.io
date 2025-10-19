@@ -1,0 +1,8 @@
+title: Media self-hosting and backup (Immich)
+description: >-
+  Self-hosted photo and video management solution, super similar to Google Photos.
+  Easily back up, organize, and manage your photos on your own server.  
+category: researched
+github_link: https://github.com/MarcSerraPeralta/homelab/issues/17
+image: /projects/immich_media_self-hosting.png
+difficulty: hardware selection and compatibility with home server
