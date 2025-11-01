@@ -2,6 +2,6 @@ title: Security camera
 description: >-
   Security camera at home to check if I have received packages, if there are people
   on my door, ... Obviously, the camera can be accessed while being away from home.
-category: wip
-github_link: https://github.com/MarcSerraPeralta/homelab/issues/16
+category: finished
+github_link: https://github.com/MarcSerraPeralta/homelab/tree/94299be2c41347dae12241b79770c17e94fdab38
 image: /projects/security_camera.webp
