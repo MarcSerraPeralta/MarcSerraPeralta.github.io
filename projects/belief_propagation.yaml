@@ -1,0 +1,8 @@
+title: Fast implementation of Belief Propagation
+description: >-
+  Implement the Belief Propagation algorithm for decoding using C++ and
+  SIMD instructions to achieve very high computing speeds.
+category: researched
+github_link: https://github.com/MarcSerraPeralta/belief-propagation
+image: /projects/belief_propagation.png
+difficulty: Coding in C++ and using SIMD instructions
