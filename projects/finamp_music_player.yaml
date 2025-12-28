@@ -1,0 +1,7 @@
+title: Self-hosted music player (Finamp + Jellyfin)
+description: >-
+  Finamp is a Jellyfin music player for Android and iOS, similar to Spotify.
+  It allows donwloading music to listen to it in offline mode.
+category: maintaining
+github_link: https://github.com/MarcSerraPeralta/homelab/issues/38
+image: /projects/finamp_music_player.png
