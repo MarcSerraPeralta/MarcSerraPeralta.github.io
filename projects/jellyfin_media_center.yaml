@@ -1,0 +1,8 @@
+title: Self-hosted media center (Jellyfin)
+description: >-
+  Self-hosted media center with TV shows, movies, songs...
+  super similar to Netflix.
+  Easily organize and manage your media on your own server.  
+category: maintaining
+github_link: https://github.com/MarcSerraPeralta/homelab/issues/20
+image: /projects/jellyfin_media_center.png
