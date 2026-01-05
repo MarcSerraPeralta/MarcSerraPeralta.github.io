@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Projects</title>
+  <style>
+    .project-card {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border: 2px solid #ccc; 
+      border-radius: 12px;
+      padding: 16px 16px 0px 16px;
+      margin-bottom: 20px;
+      background-color: #fff;
+      box-shadow: none;
+    }
+
+    @media (max-width: 600px) {
+      .project-card {
+        flex-direction: column;      /* Stack vertically */
+        align-items: center;         /* Center items horizontally */
+      }
+    }
+
+    .project-info {
+      flex: 1;
+      margin-right: 20px;
+    }
+
+    .project-title {
+      margin: 0 0 8px 0;
+      font-size: 1.25rem;
+      color: #000 !important;
+      font-weight: bold !important;   
+    }
+
+    .project-description {
+      margin: 0;
+      color: #444;
+    }
+
+    .project-image {
+      width: 200px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+      border: 0px solid #ccc;
+      margin-bottom: 16px;
+    }
+
+    .github-link {
+      margin-left: 8px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .github-icon {
+      width: 20px;
+      height: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="project-card">
+    <div class="project-info">
+      <h2 class="project-title">
+        String art
+        
+        <a href="https://github.com/MarcSerraPeralta/string-art" class="github-link" target="_blank">
+          <img src="/github_logo.svg" alt="GitHub" class="github-icon">
+        </a>
+        
+      </h2>
+      <p class="project-description">
+        String art generator to "paint" pictures with a continuous thread.
+
+        
+      </p>
+    </div>
+    <img src="" alt="Project image" class="project-image" onerror="this.style.visibility='hidden';">
+  </div>
+
+</body>
+</html>
