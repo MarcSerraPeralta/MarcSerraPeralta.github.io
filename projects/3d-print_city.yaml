@@ -1,6 +1,8 @@
 title: 3D-printed city
 description: >-
   3D print a model of a city.
-category: new_ideas
+  Two reasonably-good websites to generate free 3D models of a city are
+  <a href="https://map2model.com/" target="_blank" rel="noopener noreferrer">map2model.com</a> 
+  and <a href="https://touch-mapper.org" target="_blank" rel="noopener noreferrer">touch-mapper.org</a>.
+category: researched
 image: projects/3d-print_city.jpg
-difficulty: finding good 3D models of the cities
