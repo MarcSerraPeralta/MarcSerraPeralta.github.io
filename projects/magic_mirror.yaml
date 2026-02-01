@@ -1,0 +1,8 @@
+title: Magic mirror
+description: >-
+  See through mirror that displays useful information.
+  There is already an open source project implementing it, 
+  see <a href="https://magicmirror.builders/" target="_blank" rel="noopener noreferrer">this website</a>.
+category: researched
+image: projects/magic_mirror.png
+difficulty: is it worth it/useful?
