@@ -5,4 +5,4 @@ description: >-
 category: wip
 github_link: https://github.com/MarcSerraPeralta/homelab/issues/17
 image: /projects/immich_media_self-hosting.png
-difficulty: hardware selection and compatibility with home server
+difficulty: software connecting external and internal libraries
