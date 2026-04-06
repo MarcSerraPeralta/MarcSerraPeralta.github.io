@@ -1,0 +1,5 @@
+title: Local speech recognition software
+description: Run a local neural network to perform speech recognition
+category: researched
+image: /projects/speech_recognition.jpg
+difficulty: find a good neural network model that can be run locally
