@@ -3,4 +3,5 @@ description: >-
   Emulate Wii games on PC using Dolphin, the ROMs from vimm.net,
   the Dolphin bar, and the original Wii remote controllers.
 category: finished
+github_link: https://www.github.com/MarcSerraPeralta/homelab/blob/main/wii_emulation/README.md
 image: projects/wii_emulation.png
