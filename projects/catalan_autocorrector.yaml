@@ -1,0 +1,8 @@
+title: Catalan autocorrector
+description: >-
+  A catalan autocorrector based on a (small) transformer model.
+  This is inspired from the fact that the FUTO Keyboard has a transformer model
+  for word prediction and autocorrector for English but not for Catalan.
+category: researched
+image: projects/catalan_autocorrector.jpg
+difficulty: setting up the model to work with FUTO Keyboard and training it
